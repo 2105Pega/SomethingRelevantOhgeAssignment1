@@ -33,4 +33,12 @@ public class Car implements Serializable {
     public void setMiles(int miles) {
         this.miles = miles;
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "engine='" + engine + '\'' +
+                ", miles=" + miles +
+                '}';
+    }
 }
