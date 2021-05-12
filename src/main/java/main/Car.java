@@ -1,8 +1,14 @@
 package main;
 
-public class Car {
+import java.io.Serializable;
+
+public class Car implements Serializable {
     private String engine;
     private int miles;
+
+    Car(){
+        this.engine = "V4"
+    }
 
 
     Car(String engine, int mile){
