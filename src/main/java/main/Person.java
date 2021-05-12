@@ -8,7 +8,8 @@ public class Person implements Serializable {
 
 
     Person(){
-
+        this.name="Default";
+        this.age=0;
     }
 
     Person(String name, int age){

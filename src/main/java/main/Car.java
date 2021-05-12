@@ -7,7 +7,8 @@ public class Car implements Serializable {
     private int miles;
 
     Car(){
-        this.engine = "V4"
+        this.engine = "V4";
+        this.miles = 0;
     }
 
 
